@@ -5,9 +5,9 @@ import pandas as pd
 import time
 
 sp = spotipy.Spotify(
-    auth_manager=SpotifyOAuth(client_id='5024aee894844e6c803ea08cfb059b78',
-                              client_secret='b34d50568319476f8f59b2434afb3c28',
-                              redirect_uri='http://127.0.0.1:9090',
+    auth_manager=SpotifyOAuth(client_id='/',
+                              client_secret='/',
+                              redirect_uri='/',
                               scope="user-top-read"))
 
 results = sp.current_user_top_tracks()
